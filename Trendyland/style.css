@@ -496,16 +496,18 @@ nav ul.sub-menu > li > a {
 }
 
 nav ul.sub-menu > li > a:hover {
-    background-color: #FD685B;
+    background-color: #FA87B5;
     color: #fff;
 }
 
 nav ul.sub-menu > li:first-child > a {
     border-radius: 2px 2px 0 0;
+    color: gray;
 }
 
 nav ul.sub-menu > li:last-child > a {
     border-radius: 0 0 2px 2px;
+    color: gray;
 }
 
 #menu-toggle {
@@ -5209,7 +5211,7 @@ a.rel {
     padding: 9% 24%;
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,0.40);
+    background: rgba(0,0,0,0.33);
     margin-top: -23px;
 }
 .sub-text {
@@ -5225,9 +5227,7 @@ h2.trendy {
 h1 {
     font-size: 30px;
 }
-#metody {
-    background: url('../img/loguis.png');
-}
+
 .mg-0 {
     margin: 0 auto;
 }
@@ -5278,10 +5278,6 @@ h1 {
     color:#000000;
 
 }
-}
-.bg-img {
-    background: url('../img/loguis.png')
-}
 .mg-sec {
     margin: 0px;
     background: #ffe5f6;
@@ -5308,4 +5304,13 @@ header.fixed-header {
  nav a {
     color: white;
 }
-
+#metody, #blog {
+    background: url('img/greyfloral.png');
+    width: 100%;
+    margin: 0px;
+}
+.quote p {
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 1.4em;
+}
